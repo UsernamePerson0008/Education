@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../img/hero-bg.jpg.webp') center no-repeat;
+    background-size: cover;
+}
+.first_color{
+    color: #17C982 !important;
+}
+.icon{
+    fill: #fff;
+}
+.color_icon{
+    fill: #17C982;
+}
+.menu{
+    /* border: 3px solid red; */
+    /* padding: 20px 0; */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+.menu ul li a{
+    transition: all .3s linear;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    color: #17C982;
+}
+.active{
+    color: #17C982 !important;
+}
+.text_white{
+    color: #fff !important;
+}
+.mainBtn{
+    padding: 15px 65px;
+    background: transparent;
+    border: 3px solid #17C982;
+    color:#fff;
+    transition: all .3s linear;
+}
+.mainBtn:hover{
+    background: #17C982;
+}
+.btn_hover{
+    color: #17C982;
+    text-decoration: none;
+}
+.featured .mainBtn{
+    color: #000;
+}
+.margin_y{
+    margin: 100px auto;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+}
+.date{
+    width: 100px;
+    height: 100px;
+}
+body{
+    overflow-x:hidden;
+}
